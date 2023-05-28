@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.buttonStyle{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.statistickStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.statisticsStyle{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: coral;
+    box-shadow: 5px 5px 5px red;
+}
